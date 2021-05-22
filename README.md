@@ -60,21 +60,13 @@ sqlalchemy-challenge
 ``` 
   
 # Setup 
-The Entity Relationship Diagram (ERD) below describes the structure and relationship present in the database:  
-
-![SQL](EmployeeSQL/static/surfs-up.png)  
   
-To perform the queries below the database can be establised as follows:  
-1. Create a new Database in PostgreSQL  
-2. Create tables using table schemata in the 'schema.sql' file 
-3. Import the csv files into  the tables from the data folder  
-    **Note:** Due to the foreign keys described in the schema, the csv's should be imported in the folllowing order:  
-              (1) departments.csv --> (2) titles.csv --> (3) employees.csv --> (4) dept_emp.csv -->  (5) dept_manager.csv --> (6)) salaries.csv
-5. Run queries from the 'Data Analysis.sql' file  
+* Open Climate Analysis.ipynb as a Jupyter Notebook  
+* Once opened, Select *Restart & Run All* from Kernel menu  
+* The Notebook can now be navigated using the links to observe the data analysis  
   
-The 'Bonus' section of the homework can be loaded from the SQL-Analysis.ipynb notebook   
-  
-**NOTE:** This notebook requires the users **PostgreSQL username and password** to be loaded into the **config.py** file in order to load the engine  
+* Run app.py with the commond 'python app.py' from the terminal
+* Instructions for navigating the routes are found on the home page   
   
   
 # Analysis  
