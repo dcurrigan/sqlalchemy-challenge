@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<style>
+</style>
+
+<html>
+    <head>
+    </head>
+    <body>
+        <pre><H2><strong>Welcome to Climate App </strong></h2><br></pre>
+        <img src='{{ url_for('static', filename='surfs-up.png') }}' width="730" height="400"/>
+        <pre><h3><strong>Here are the available Routes:</h4></strong>
+        <pre>/api/v1.0/precipitation       -   Returns a JSON representation of the 23/08/2016 - 23/08/2017 precipitation analysis</pre>
+        <pre>/api/v1.0/stations            -   Returns a data on all stations in JSON format</pre>
+        <pre>/api/v1.0/tobs                -   Returns a JSON list of all temperature observations from 23/08/2016 - 23/08/2017</pre>
+        <pre>/api/v1.0/                    -   Enter a start date +/- end date in format '/api/v1.0/YYYY-MM-DD/YYYY-MM-DD' to view the min, max and avg</pre>
+        <pre>                                  temps for each day in the range. If end date empty all dates greater than start date will be used</pre>
+        <pre>                                  The database spans dates 1/1/2010 to 23/08/2017</pre>
+    </body>
+</html>
+
+<script>
+</script>
