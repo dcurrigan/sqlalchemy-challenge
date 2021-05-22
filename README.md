@@ -79,12 +79,12 @@ Analysis of daily precipitation readings from all stations for the last 12 month
 **Station Analysis** 
 The Waihee 837.5 Station had the greatest number of temperature observations with 2772. In the data for this station the Min temp (F) was 54, Max temp (F) was 85, and Average temp (F) was 71.66. A histogram of this stations temperature data for 12 months from 23/8/2016-2017 showed an approximate normal distribution:
 
-![SQL](EmployeeSQL/Output/temp_histogram.png)  
+![SQL](/Output/temp_histogram.png)  
 
 **Climate App**
 Results of Analyses are available in JSON format via Climate App  
   
-  ![SQL](EmployeeSQL/Output/climate_app.png) 
+  ![SQL](/Output/climate_app.png) 
    
 **Temperature Analysis 1:** Is there a statistically significant difference in temperatures between June and Decemeber?   
 
