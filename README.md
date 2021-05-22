@@ -86,8 +86,9 @@ Results of Analyses are available in JSON format via Climate App
   
   ![SQL](/Output/climate_app.png) 
    
-### Temperature Analysis 1: Is there a statistically significant difference in temperatures between June and Decemeber?   
-  
+### Temperature Analysis 1
+Is there a statistically significant difference in temperatures between June and Decemeber?   
+   
 Analysis revealed an avaerage temperature in June across all years of74.94 degrees F, and 71.04 degrees F for December. An independent sample T-test revealed a P-value of 3.9025129038616655e-191, suggesting temeperatures between June and Decemebr have a statistitically significant differrence.   
   
 An unpaired test was used, as whilst the groups contain measurements of the same thing (Hawaii temperatures), there are different numbers of measurements present in each
