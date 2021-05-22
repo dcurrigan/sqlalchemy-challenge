@@ -4,7 +4,7 @@ Week 10 SQLAlchemy Homework
 > Created by Dale Currigan  
 > May 2021  
   
-![SQL](EmployeeSQL/static/surfs-up.png)    
+![SQL](/static/surfs-up.png)    
 
 ## Table of contents  
 * [Project Intro](#Project-Intro)  
