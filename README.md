@@ -30,7 +30,7 @@ The project briefing was as follows:
 
 # Project Structure
 ```
-sql-challenge   
+sqlalchemy-challenge   
 |  
 |__ EmployeeSQL  
 |   | 
